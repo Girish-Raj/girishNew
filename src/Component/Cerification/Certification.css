@@ -1,0 +1,39 @@
+
+
+
+
+.Certification-container{
+    padding: 40px;
+    position: relative;
+}
+
+.Certification-subVideo{
+    background-image: url("https://www.edzeb.com/webp-img/why-should-do-cfa.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+    width: 450px;
+    height: 250px;
+    clip-path: polygon(0 0, 90% 0, 100% 20%, 100% 100%, 0% 100%) ;
+    background-color: rgb(48, 74, 74);
+    border-radius: 10px;
+    padding: 2px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.Certification-videos{
+    display: flex;
+
+}
+
+.upcomingEvent-pagination {
+    margin-top: 40px; /* Move pagination further down */
+    text-align: center;
+
+
+  }

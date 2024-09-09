@@ -1,0 +1,55 @@
+
+.TimeLeft{
+ 
+    background-color: rgb(255, 255, 255);
+    position: -webkit-sticky; /* For Safari */
+    position: sticky;
+    top: 0;
+    z-index: 1000; /* Ensures it stays above other content */
+
+}
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    gap: 15px;
+    padding: 13px;
+}
+
+.wrapper p{
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 17px;
+}
+
+.formate-date{
+    display: flex;
+    gap: 10px;
+    
+
+}
+.formate-date span{
+    font-weight: 700;
+    margin-top: 5px;
+   
+}
+.time{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+
+}
+
+.time h2{
+    font-size: 21px;
+}
+.time h6{
+    font-size: 10px;
+}
+
+
+

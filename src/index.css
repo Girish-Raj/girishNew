@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=fallback');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #f5f5f7;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+.svg-icon {
+    height: 20px;
+    width: 20px;
+    stroke: inherit;
+}
+
+.svg-btn-icon {
+    fill: #fff;
+}
+
+.dark body {
+    background-color: #000000;
+}
+
+.transform_center {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+button:disabled,
+input:disabled,
+button.disabled,
+input.disabled {
+    opacity: 0.6;
+}
+
+
+/*fallback row incase whole table is missing*/
+
+tbody tr.fallback {
+    display: none;
+}
+
+tbody tr:first-child {
+    display: table-row;
+}
+
+.safari-dd {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+
+.noselect {
+    -webkit-touch-callout: none;
+    /* iOS Safari */
+    -webkit-user-select: none;
+    /* Safari */
+    -khtml-user-select: none;
+    /* Konqueror HTML */
+    -moz-user-select: none;
+    /* Old versions of Firefox */
+    -ms-user-select: none;
+    /* Internet Explorer/Edge */
+    user-select: none;
+    /* Non-prefixed version, currently  supported by Chrome, Edge, Opera and Firefox */
+}
+
+.logo-img {
+    max-height: 80%;
+    max-width: 120px;
+}
+
+.logo-img-login {
+    max-height: 80%;
+}
+
+
+/* styles to override dropdowns for phone*/
+
+.dark .react-tel-input .country-list .country.highlight,
+.dark .react-tel-input .country-list .country:hover {
+    background-color: rgb(22, 31, 37);
+    border: 1px solid #ccc;
+}
+
+.btn-icon,
+.inline-icon {
+    height: 20px;
+    width: 20px;
+    fill: #fff;
+    display: inline;
+}
+
+.inline-icon {
+    fill: #888;
+}
+
+.ck-editor .ck-content {
+    color: #000000;
+}
+
+.ck-content {
+    padding: 2em !important;
+}
+
+.ck-content h3 {
+    font-size: 1.4em !important;
+}
+
+.ck-content h4 {
+    font-size: 1.17em !important;
+}
+
+.ck-content h2 {
+    font-size: 1.7em !important;
+}
+
+.ck-content ul,
+.ck-content ol {
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    padding-inline-start: 40px;
+}
+
+.ck-content pre:has(>div.formula) {
+    color: inherit;
+    border: none;
+    background: inherit;
+    padding: 2px;
+}
+
+.ck-content .mjx-chtml {
+    margin: 0;
+}
+
+.notes-popup>div {
+    height: 100%;
+}
+
+.notes-popup>div::before {
+    content: "";
+    background-image: url(./assets/cp-banner.jpg);
+    background-size: 294px;
+    background-position-x: right;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0px;
+    right: 50px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.49;
+}
+
+.dark .notes-popup>div::before {
+    background-image: url(./assets/cp-dark-banner.jpg);
+    background-size: 252px;
+}
+
+.notes-popup-backdrop {
+    background-image: url(./assets/yubha.png);
+    background-size: contain;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-repeat: no-repeat;
+    opacity: 0.08;
+}
+
+.notes-barcode {
+    height: 60px;
+    width: 60px;
+    float: right;
+    margin: 0 10px;
+    position: absolute;
+    right: 0;
+    opacity: 0.8;
+}
+
+@media only screen and (max-width: 600px) {
+    .ck-content {
+        padding: 4px !important;
+    }
+    .notes-popup>div::before,
+    .dark .notes-popup>div::before {
+        background-image: url(./assets/logo.png);
+        background-size: 80px;
+    }
+    .ck-content ul,
+    .ck-content ol{
+        padding-inline-start: 20px;
+    }
+    .ck-content figure.image {
+        width: 100% !important;
+    }
+}
+
+
+/* youtube player css*/
+
+.yt-player {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+    /* 16:9 aspect ratio (9/16 = 0.5625) */
+    height: 0;
+    overflow: hidden;
+}
+
+.yt-player iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}

@@ -1,0 +1,10 @@
+.Description3-container{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    padding: 100px  80px;
+    background-color: rgb(241, 245, 248);
+
+}

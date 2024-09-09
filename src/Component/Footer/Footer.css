@@ -1,0 +1,61 @@
+
+
+.footer-container{
+    background-color: white;
+    padding: 80px 120px;
+}
+
+.footer-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+}
+.copyright{
+    display: flex;
+    gap: 2px;
+    justify-content: center;
+    align-items: center;
+}
+.policy{
+    display: flex;
+    gap: 27px;
+}
+
+.policy h3{
+  color: blue;
+}
+.footer-bottom{
+    display: flex;
+    justify-content: space-between;
+}
+
+.assurity{
+    max-width: 690px;
+   
+}
+
+.assurity p{
+    color: rgb(69, 105, 125);
+    line-height: 2; 
+}
+
+.companany{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.companany h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight:  50;
+    color: rgb(69, 105, 125);
+    font-size: 20px;
+
+}
+.companany h1{
+    color: rgb(90, 101, 171);
+    font-size: 37px;
+}
+
+
+
+

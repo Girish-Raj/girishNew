@@ -1,0 +1,79 @@
+
+
+.card2-container{
+    width: 270px;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 20px 20px 20px;
+    border: 1px solid rgb(220, 220, 220);
+    border-top: 5px solid blue;
+    background-color: white;
+   
+
+}
+
+.card2-containers{
+    width: 370px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 30px 20px 30px;
+    border: 1px solid rgb(220, 220, 220);
+    border-top: 5px solid blue;
+    background-color: white;
+
+
+}
+.card2-container .EmojiEventsIcon {
+    width: 70px;
+    height: 70px;
+    color: rgb(99, 139, 208);
+}
+
+.card2-containers .EmojiEventsIcon {
+    width: 70px;
+    height: 70px;
+    color: rgb(99, 139, 208);
+}
+
+
+.card2-container .paragraph{
+    font-weight: 100;
+    text-align: center;
+    height: 300px;
+
+ 
+   
+}
+.card2-container h5{
+    font-weight: 100;
+
+}
+.card2-container span{
+    font-weight: 500;
+}
+.cards{
+    display: flex;
+    background-color: rgb(99, 139, 208);
+    padding: 8px 60px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 1;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+  .all-cards{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }

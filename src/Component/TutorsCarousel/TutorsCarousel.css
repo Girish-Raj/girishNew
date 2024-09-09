@@ -1,0 +1,53 @@
+.carousel {
+    background-color: rgb(240, 240, 240);
+    padding: 80px 260px;
+  }
+  
+  .carousel-Wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    text-align: center;
+  }
+  
+  .content-card {
+    display: flex;
+    position: relative;
+    background-color: red;
+    width: 80%;
+    padding: 40px 40px 80px 200px;
+    border-radius: 10px;
+    margin-bottom: 20px; /* Add margin between cards */
+    
+    
+  }
+  
+  .content-wrapperr {
+    text-align: left;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex: 1; /* Allow this to take up remaining space */
+  }
+  
+  .carousel-Wrapper p {
+    line-height: 1.5;
+    font-size: 20px;
+  }
+  
+  .images {
+    position: absolute;
+    top: 150px; /* Center vertically */
+    transform: translateY(-50%); /* Adjust for true vertical centering */
+    left: -50px; /* Position it out to the left */
+  }
+  
+  .images img {
+    border-radius: 10px;
+    width: 220px; /* Adjust width as needed */
+    height: auto; /* Maintain aspect ratio */
+  }
+

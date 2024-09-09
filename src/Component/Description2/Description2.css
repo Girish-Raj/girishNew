@@ -1,0 +1,33 @@
+
+
+.Description2-container{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    padding: 100px  80px;
+    background-color: rgb(241, 245, 248);
+}
+
+.Description2-wrapper{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.availability-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 50px;
+    color: rgb(99, 139, 208);
+}
+
+.arrow-icon {
+    font-size: 2rem; /* Adjust size */
+    color: #000;
+}

@@ -1,0 +1,45 @@
+
+
+.Offer-container{
+    background-color: rgb(241, 241, 241);
+    padding: 100px;
+    
+}
+.Offer-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.all-offers{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+.offers-deails{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(255, 239, 12);
+    gap: 1px;
+    width: 92%;
+    align-items: center;
+}
+
+.time-offer{
+    display: flex;
+    gap: 8px;
+    padding: 18px;
+}
+
+.other-cards{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+.hide-cards{
+    display: none;
+}
